@@ -1,5 +1,15 @@
 <!DOCTYPE html>
 <html>
-<head><title>Тест</title></head>
-<body><h1>Музыка тут!</h1></body>
+<head><title>Тест музыки</title></head>
+<body style="text-align:center; font-family:sans-serif; padding-top: 50px;">
+  <h1>Музыка тут!</h1>
+  
+  <audio id="myAudio" loop>
+    <source src="ikson-christmas.mp3" type="audio/mpeg">
+  </audio>
+  
+  <button onclick="document.getElementById('myAudio').play()" style="padding: 15px 30px; font-size: 20px; cursor: pointer;">
+    ▶ Нажми, чтобы играть
+  </button>
+</body>
 </html>
